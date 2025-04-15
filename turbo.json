@@ -1,0 +1,19 @@
+{
+  "extends": ["turbo/presets/base.json"],
+  "tasks": {
+    "build": {
+      "outputs": ["dist/**"]
+    },
+    "lint": {},
+    "test": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "storybook": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": []
+    }
+  }
+}
